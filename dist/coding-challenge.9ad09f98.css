@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #root {
+    background: #fff;
+    color: #000;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .list-of-users {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .before {
+    width: 50%;
+    border-right: 1px solid #ccc;
+    overflow-x: hidden;
+  }
+  
+  .after {
+    width: 50%;
+    overflow-x: hidden;
+  }
+  
+  h3 {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 300px;
+    margin-top: 10px;
+    overflow-x: hidden;
+  }
+  
+  .user {
+    margin: 10px;
+  }
+  
+  .user-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .user-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+  
+  .btn {
+    color: #fff;
+    width: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .btn-blue {
+    background-color: dodgerblue;
+  }
+  
+  .btn-red {
+    background-color: #d81e3c;
+    margin-left: 10px;
+  }
+  
+  .user-input {
+    height: 25px;
+    border-radius: 5px;
+  }
+  
+  .user-input:last-child {
+    margin-top: 10px;
+  }
+
+  .edit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+
+
+/*# sourceMappingURL=/coding-challenge.9ad09f98.css.map */
